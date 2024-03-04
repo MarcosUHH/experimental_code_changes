@@ -18,7 +18,6 @@ public class OnlineCustomer {
     }
 
     public int getMembershipLevel() {
-        membershipLevel = updateMembership(membershipLevel);
         return membershipLevel;
     }
 
@@ -33,16 +32,8 @@ public class OnlineCustomer {
      * @return the updated membership level
      */
     private int updateMembership(int membership){
-        LocalDate today = LocalDate.now();
-        Period membershipDuration = Period.between(registrationDate, today);
-        int membershipDurationYears = membershipDuration.getYears();
-        if(membershipDurationYears >= 1) {
-            membership = membershipDurationYears;
-        }
-        if(membership > 10) {
-            membership = 10;
-        }
-        return membership;
+        //TODO
+        return 0;
     }
 
     public class Address{
