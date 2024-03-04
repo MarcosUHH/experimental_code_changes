@@ -14,7 +14,7 @@ public class OnlineCustomer {
         this.username = username;
         this.address = new Address(address, postalCode, country);
         this.membershipLevel = membershipLevel;
-	    this.registrationDate = registrationDate;
+        this.registrationDate = registrationDate;
     }
 
     public int getMembershipLevel() {

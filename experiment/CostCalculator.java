@@ -7,8 +7,8 @@ public class CostCalculator {
     /**
      * Returns the discount rate based on the membership level of the customer.
      * Customers at level 1 do not receive any discount.
-     * Customers at level 2 to 4 receive a 10% discount.
-     * Customers from level 5 included receive a 25% discount.
+     * Customers at level 2 to 4 receive a 10 0iscount.
+     * Customers from level 5 included receive a 25 0iscount.
      * @param membershipLevel - the level of membership of the customer
      * @return the discount rate applied to the customer
      */
